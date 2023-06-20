@@ -5,7 +5,6 @@ const userPage = require('./user')
 // for static web page
 // app.use(express.static('public'))
 
-// for dynamic web page
 app.set("view engine","ejs")
 
 app.use(express.urlencoded({extended : true}))
